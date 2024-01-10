@@ -1,11 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"net"
-	"log"
 	"context"
-	"github.com/kpreston1/go-grpc-poc/invoicer"
+	"fmt"
+	"log"
+	"net"
+	"github.com/kpreston1/go-grpc-poc/grpc/invoicer"
 	"google.golang.org/grpc"
 )
 
